@@ -22,7 +22,7 @@ def fazer_questionario(quiz):
         else:
             print(f"> Resposta incorreta! A resposta correta era {resposta}.\n")
     print(f"> Sua pontuacao final foi {pontuacao}/10.")
-    if pontuacao == 5:
+    if pontuacao == 10:
         print("> Parabens! Voce acertou todas as questoes!")
 
 def print_divisao():
